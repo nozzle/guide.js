@@ -14,6 +14,7 @@ Package.describe({
 Package.onUse(function (api) {
   api.versionsFrom(['METEOR@0.9.0', 'METEOR@1.0']);
   api.export('Onboard');
+  api.use('urigo:angular@0.6.5', where);
   api.addFiles([
     'onboard.js',
     'onboard.css'
